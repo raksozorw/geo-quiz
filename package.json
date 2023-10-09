@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "cd globle-app-server && node server.js & cd .. & npm run start-fe",
+    "start-fe": "cd react-globle-app && npm run dev"
+  }
+}
